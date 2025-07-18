@@ -45,6 +45,13 @@ We built an Azure Logic Apps–based moderation service that watches a Teams cha
 
 ---
 
+## Architecture Diagram
+
+![Moderation Flowchart](images/flowchart.png)
+![Moderation Operation](images/operation.png)
+
+---
+
 ## How We Tested the Workflow  
 1. Posted various messages in the target Teams channel:  
    - Clean messages (e.g. “Hello everyone”) → no email.  
